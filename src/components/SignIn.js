@@ -11,22 +11,22 @@ function SignIn() {
   return (
     <div>
       <div id="container">
-        <div id="ghost-bubble" class="chat-bubble"></div>
+        <div id="ghost-bubble" className="chat-bubble"></div>
         <button onClick={signInWithGoogle} className='signIn'>Sign in with google</button>
-        <div class="ghost">
-          <div class="ghost-face">
-            <div class="ghost-eyes">
-              <div class="ghost-eyes-l"></div>
-              <div class="ghost-eyes-r"></div>
+        <div className="ghost">
+          <div className="ghost-face">
+            <div className="ghost-eyes">
+              <div className="ghost-eyes-l"></div>
+              <div className="ghost-eyes-r"></div>
             </div>
-            <div class="ghost-mouth"></div>
+            <div className="ghost-mouth"></div>
           </div>
-          <div class="ghost-torso"></div>
-          <div class="ghost-hands">
-            <div class="ghost-hands-l"></div>
-            <div class="ghost-hands-r"></div>
+          <div className="ghost-torso"></div>
+          <div className="ghost-hands">
+            <div className="ghost-hands-l"></div>
+            <div className="ghost-hands-r"></div>
           </div>
-          <div class="ghost-legs"></div>
+          <div className="ghost-legs"></div>
         </div>
       </div>
     </div>
